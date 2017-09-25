@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChitChat</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="log_out">Log out</string>
+    <string name="all_users">All Users</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="already_have_an_account">ALREADY HAVE ACCOUNT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_there_i_am_using_chitchat_app">Hi There, I am using ChitChat App</string>
+    <string name="send_friend_request">SEND FRIEND REQUEST</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.sh.chitchat.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:src="@drawable/default_image"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/username"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/hi_there_i_am_using_chitchat_app"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/change_image_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="CHANGE IMAGE"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/change_status_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="CHANGE STATUS"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/change_image_btn"
+        android:layout_alignStart="@+id/change_image_btn" />
+
+
+</RelativeLayout>
